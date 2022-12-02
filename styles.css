@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+}
+
+nav ul{ 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20 px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+section{
+    height: 100vh;
+}
+
+section#perfil{
+    background: darkgray url("progra 4.0/12611.jpg") fixed
+    no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#perfil h1{
+    color: white;
+}
+section#perfil img{
+    width: 25%;
+    border-radius: 10%;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    border: 20px;
+}
+
+.lista-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto-dt{
+    border: 5px solid rgb(9, 142, 137);
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.proyecto-dt img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.mensajes{
+    justify-content: center;
+    
+}
+
+.lista-contato{
+    border: 10px solid black;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contacto img{
+    margin: 20px;
+    width: 100%;
+}
